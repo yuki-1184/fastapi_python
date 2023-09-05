@@ -18,4 +18,4 @@ app.add_middleware(
 
 @app.get("/")
 def Hello():
-    return {"Hello": "World"}
+    return {"Hello": "World!"}
